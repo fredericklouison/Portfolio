@@ -98,6 +98,7 @@ div#enterAnim:hover{
 }
 #cicleArea li:nth-child(2){
   left :15%;
+  animation-delay:2.3s;
 }
 #cicleArea li:nth-child(3){
   left :27%;
@@ -117,7 +118,7 @@ div#enterAnim:hover{
 }
 #cicleArea li:nth-child(7){
   left :45%;
-  animation-delay:7s;
+  animation-delay:7.8s;
 }
 #cicleArea li:nth-child(8){
   left :72%;
@@ -133,7 +134,7 @@ div#enterAnim:hover{
 }
 #cicleArea li:nth-child(11){
   left :16%;
-  animation-delay:11s;
+  animation-delay:11.7s;
 }
 #cicleArea li:nth-child(12){
   left :29%;
@@ -141,7 +142,7 @@ div#enterAnim:hover{
 }
 #cicleArea li:nth-child(13){
   left :62%;
-  animation-delay:2.4s;
+  animation-delay:2.9s;
 }
 #cicleArea li:nth-child(14){
   left :41%;
@@ -149,6 +150,8 @@ div#enterAnim:hover{
 }
 #cicleArea li:nth-child(15){
   left :3%;
+  animation-delay:4.6s;
+
   
 }
 @keyframes anim{

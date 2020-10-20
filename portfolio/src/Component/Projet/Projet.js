@@ -8,10 +8,11 @@ import './Projet.css'
 const Projet = () => {
     const[projet,setProjet]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:1337/projets')
+        fetch('https://salty-dusk-53538.herokuapp.com/projets')
         .then(res=>res.json())
         .then(res=>{
             setProjet(res)
+            console.log(res)
         })
         
     },[])
@@ -21,7 +22,7 @@ const Projet = () => {
     .map(key=>{
     return(
         <Card key={key}>
-                        <Card.Img variant="top" src={'http://localhost:1337'+projet[key].image[0].formats.thumbnail.url}/>
+                        <Card.Img variant="top" src={projet[key].image[0].formats.thumbnail.url}/>
                         <Card.Body>
                             <Card.Title>{projet[key].titre}</Card.Title>
                             <Card.Text>
@@ -32,7 +33,7 @@ const Projet = () => {
                             
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">{projet[key].created_at.split('T')[0]}</small>
+                            <small className="text-muted">{projet[key].createdAt.split('T')[0]}</small>
                         </Card.Footer>
          </Card>
     )
