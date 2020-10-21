@@ -11,12 +11,12 @@ const About = () => {
             <div id='firstText'>
                 <img src={img}/>
                 <div>
-                    <p>Je m'appelle frédérick Louison, après  un bac scientifique et un contrat dans la  gendarmerie, j'ai décidé de me reconvertir dans le développement web.</p>
+                    <p>Je m'appelle Frédérick Louison, après  un bac scientifique et un contrat dans la  gendarmerie, j'ai décidé de me reconvertir dans le développement web.</p>
                     <p>
                     En effet ce métier m'attire depuis de nombreuses années mais je n'ai jamais osé sauter le pas .  
                     </p>
                     <p>
-                    j'ai commencé à me former seul  car j'apprends très rapidement , néanmoins j'ai souhaité apporter plus de crédit à ce que j'ai appris j'ai donc décidé de m'inscrire sur openClassrooms à la formation de développeur web
+                    J'ai commencé à me former seul  car j'apprends très rapidement , néanmoins j'ai souhaité apporter plus de crédit à ce que j'ai appris j'ai donc décidé de m'inscrire sur openClassrooms à la formation de développeur web
                     </p>
                     <p>
                     Cette formation étant désormais terminée je recherche des missions en freelances
